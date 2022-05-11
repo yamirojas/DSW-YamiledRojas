@@ -1,0 +1,35 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: aqua;
+    color: rgb(22, 23, 24);
+
+}
+nav{background-color: aquamarine;
+
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+article{background-color: azure;
+    grid-column: 1/4;
+
+}
+aside{background-color: beige;
+    grid-column: 4/5;
+
+}
+footer{background-color: black;
+color: beige;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
